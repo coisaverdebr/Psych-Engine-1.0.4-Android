@@ -1,4 +1,4 @@
-package states;
+opackage states;
 
 import backend.WeekData;
 import backend.Highscore;
@@ -616,7 +616,7 @@ class FreeplayState extends MusicBeatState
 
 		FlxG.autoPause = ClientPrefs.data.autoPause;
 		if (!FlxG.sound.music.playing && !stopMusicPlay)
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			FlxG.sound.playMusic(Paths.music('MenuThemeStory'));
 	}	
 }
 
